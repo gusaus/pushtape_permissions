@@ -42,3 +42,11 @@ features[user_permission][] = create files
 features[user_permission][] = use ipe with page manager
 features[user_permission][] = use panels in place editing
 features[user_permission][] = view the administration theme
+
+
+; Information added by drush on 2014-02-13
+version = "7.x-1.x-panels-dev"
+core = "7.x"
+project = "pushtape_permissions"
+datestamp = "1392279440"
+
