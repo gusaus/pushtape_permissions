@@ -253,6 +253,16 @@ function pushtape_permissions_user_default_permissions() {
     'module' => 'panelizer',
   );
 
+  // Exported permission: 'administer site configuration'.
+  $permissions['administer site configuration'] = array(
+    'name' => 'administer site configuration',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'system',
+  );
+
   // Exported permission: 'create files'.
   $permissions['create files'] = array(
     'name' => 'create files',
@@ -261,6 +271,15 @@ function pushtape_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'create url aliases'.
+  $permissions['create url aliases'] = array(
+    'name' => 'create url aliases',
+    'roles' => array(
+      'editor' => 'editor',
+    ),
+    'module' => 'path',
   );
 
   // Exported permission: 'use ipe with page manager'.
