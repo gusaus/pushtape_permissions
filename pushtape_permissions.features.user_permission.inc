@@ -282,6 +282,16 @@ function pushtape_permissions_user_default_permissions() {
     'module' => 'path',
   );
 
+  // Exported permission: 'show format selection for node'.
+  $permissions['show format selection for node'] = array(
+    'name' => 'show format selection for node',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'better_formats',
+  );
+
   // Exported permission: 'use ipe with page manager'.
   $permissions['use ipe with page manager'] = array(
     'name' => 'use ipe with page manager',
@@ -300,6 +310,16 @@ function pushtape_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'panels',
+  );
+
+  // Exported permission: 'use text format full_html'.
+  $permissions['use text format full_html'] = array(
+    'name' => 'use text format full_html',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'filter',
   );
 
   // Exported permission: 'view the administration theme'.
